@@ -26,5 +26,5 @@ change the compiled output to a javascript file instead (e.g.):
 and then add the javascript output file (e.g. wasmJSReadFile.js) to a <script> in your own .html file. 
 
 # acknowledgements
-Thanks to @morew4rd for encouraging me to create this proof of concept
+Thanks to @morew4rd for encouraging me to create this proof of concept.
 Thanks to @akkartik, @zbtnot, and @sbc100 for tips on how to create this project 😊
