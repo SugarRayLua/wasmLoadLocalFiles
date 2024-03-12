@@ -15,9 +15,9 @@ function readFile(input) {
 }
 
 function writeFileToWasmFS(testFile) {
-	module.FS.writeFile(
+	Module.FS.writeFile(
 	   '/tmp/test.lua', testFile);
-	module['_readLuaFile']();
+	Module['_readLuaFile']();
 }
 </script>
 
