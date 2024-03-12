@@ -11,7 +11,7 @@ Since mobile browser projects (e.g. javascript, emscripten compiled programs to 
    choose a file to upload via javascript and which subsequently uses emscripten's Module.FS api to write the uploaded local file
    (e.g. test.lua) into emscripten's virtual file system so that it can be used by the compiled .wasm code. This proof of concept project
    relies on the fact that local files can be loaded by browser projects if the user themsevles chooses those local files and that
-   emscripten's Module.FS api allows browser javascript to write into emscripten's virtual filesystem that .wasm code can access.
+   emscripten's Module.FS api allows browser javascript to write into emscripten's virtual filesystem that .wasm code can then access.
 4. Place the test file (e.g. test.lua) somewhere in a directory on the local device
 5. Open .html (e.g. wasmJSReadFile.html) in a mobile or non-mobile web browser and click on the "Choose File" button to select the test.lua file
 6. Emscripten demo web page displays result (e.g. contents of test.lua) in canvas in the middle of the webpage simulating stdout
